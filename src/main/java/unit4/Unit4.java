@@ -227,6 +227,7 @@ public class Unit4 {
                 System.out.print(i*j);
                 System.out.print("\t");
             }
+            
             System.out.print("\n");
         }
     }
