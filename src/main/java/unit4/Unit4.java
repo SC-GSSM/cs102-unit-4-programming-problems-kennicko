@@ -117,12 +117,11 @@ public class Unit4 {
         // TODO: Implement this method
         int count = 0;
         String[] vowel = {"a","e","i","o","u"};
-        for (int i = 0; i < string.split("").length; i++) {
+        for (int i = 0; i < str.split("").length; i++) {
             for (int j = 0; j < vowel.length; j++) {
-                if(string.split("")[i].equals(vowel[j])) count++;
+                if(str.split("")[i].equals(vowel[j])) count++;
             }
         }
-        System.out.println(count);
         return count;
     }
 
