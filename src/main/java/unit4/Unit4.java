@@ -151,7 +151,7 @@ public class Unit4 {
         // TODO: Implement this method
         Boolean isTrue = true;
         for (int i = 0; i < str.length()/2; i++) {
-            if(str.substring(i,i+1).equals(str.substring(str.length()-i-1,str.length()-i))) isTrue = false;
+            if(!str.substring(i,i+1).equals(str.substring(str.length()-i-1,str.length()-i))) isTrue = false;
         }
         return isTrue;
     }
